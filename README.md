@@ -1,1 +1,2 @@
-# css-stuff
+# stuff
+Random projects and exercises
