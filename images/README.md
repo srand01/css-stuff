@@ -1,1 +1,1 @@
-Simple page using javascript from Head First JavaScript Programming: A Brain-Friendly Guide
+Simple image page viewer using javascript from Head First JavaScript Programming: A Brain-Friendly Guide
