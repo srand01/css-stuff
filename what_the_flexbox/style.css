@@ -33,6 +33,10 @@
 /*   height: 100vh; */
 /*   flex-direction: column; */
 /*   flex-wrap: wrap; */
+/*justify-content: flex-start; 
+  is the default prop and value,
+  aligns items on the main axis*/
+  justify-content: flex-end;
 }
 
 .box {
