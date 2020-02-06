@@ -40,6 +40,8 @@
   align-items: center;
 /*add height so items can move on the cross axis*/  
   height: 100vh;
+  /*aling-items: stretch; is the default value
+  which makes elements to stretch top to bottom*/
   
 }
 
