@@ -19,3 +19,10 @@
 .box8 { background: #bdc3c7;}
 .box9 { background: #2ecc71;}
 .box10 { background: #16a085;}
+
+/*We start with writing out flexbox here. The above is just page setup*/
+.container {
+  display: flex;
+  border: 10px solid goldenrod;
+  height: 100vh;
+}
