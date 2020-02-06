@@ -29,12 +29,16 @@
 /*We start with writing out flexbox here. The above is just page setup*/
 .container {
   display: flex;
-  border: 10px solid goldenrod;
-  height: 100vh;
+/*   border: 10px solid goldenrod; */
+/*   height: 100vh; */
 /*   flex-direction: column; */
-  flex-wrap: wrap;
+/*   flex-wrap: wrap; */
 }
 
 .box {
-  width: calc(33.3333333%;
+  flex: 1;
+}
+
+.box3 {
+  order: 5;
 }
