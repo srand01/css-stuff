@@ -43,6 +43,8 @@
   /*aling-items: stretch; is the default value
   which makes elements to stretch top to bottom*/
   
+  /*it works when there's extra content*/
+  align-content: space-between;
 }
 
 /* .box {
