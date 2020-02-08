@@ -32,7 +32,7 @@
 /*   border: 10px solid goldenrod; */
 /*   height: 100vh; */
 /*   flex-direction: column; */
-/*   flex-wrap: wrap; */
+  flex-wrap: wrap;
 /*justify-content: flex-start; 
   is the default prop and value,
   aligns items on the main axis*/
@@ -47,9 +47,9 @@
   align-content: space-between;
 }
 
-/* .box {
-  flex: 1;
-} */
+.box {
+  width: 33.333%;
+}
 
 /* .box3 {
   order: 5;
