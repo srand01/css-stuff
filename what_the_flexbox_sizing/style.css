@@ -36,10 +36,11 @@ will be dictated by the size of the content*/
 
 /* flex: 1 each element takes as much space as possible*/
 .box {
-  flex: 1;
+  flex-basis: 400px;
+
 }
 
 /*flex: 2 takas twice the size as flex: 1*/
 .box2{
-  flex: 2;
+  flex-basis: 400px;
 }
