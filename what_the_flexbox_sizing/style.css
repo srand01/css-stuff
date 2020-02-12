@@ -37,6 +37,7 @@ will be dictated by the size of the content*/
 /* flex: 1 each element takes as much space as possible*/
 .box {
   flex-basis: 400px;
+  flex-grow: 1;
 
 }
 
