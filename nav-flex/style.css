@@ -43,6 +43,9 @@ a:hover {
   list-style: none;
   margin: 0;
   padding: 0;
+  /*makes the nav container a flex container*/
+  display: flex;
+  
 }
 
 @media all and (max-width: 1000px){
