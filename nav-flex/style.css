@@ -47,6 +47,18 @@ a:hover {
   display: flex;
   
 }
+/*li takes takes 3 times the size
+of social items*/
+.flex-nav li {
+  flex: 3;
+}
+
+/*social items (icons)
+overrides flex: 3 now social icons
+take less space*/
+.flex-nav .social{
+  flex: 1;
+}
 
 @media all and (max-width: 1000px){
   
