@@ -69,7 +69,11 @@ take less space*/
   .flex-nav li {
     flex: 1 1 50%;
   }
-  
+  /*just in case the social icons don't
+  show properly*/
+  .flex-nav .social {
+    flex: 1 1 25%;
+  }
   
   
 }
