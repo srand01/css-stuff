@@ -7,6 +7,7 @@
   <link href="css/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -29,8 +30,8 @@
     <!--start un-collapsed navbar-->
     <div class="collapse navbar-collapse" id="main_navbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="albums.html">Albums</a></li>
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="albums.html">Albums</a></li>
         <li><a href="photos.html">All photos</a></li>
       </ul>
     </div>
@@ -41,10 +42,16 @@
 
 <body>
   <div class="contaner">
-    <h1>Albums</h1>
-    <a href="photos.html"><img class="album_cover" src="./images/img_1.jpg" alt="graffiti on a wall"></a>
-    <img class="album_cover" src="./images/img_2.jpg" alt="full english breakfast">
-    <img class="album_cover" src="./images/img_3.jpg" alt="racks of cheese">
+    <h1>Graffiti photo</h1>
+    <!--Start of breadcrumb-->
+    <ol class="breadcrumb">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="albums.html">Albums</a></li>
+      <li><a href="photos.html">Graffiti album</a></li>
+      <li><a href="photo1.html">Graffiti picture</a></li>
+    </ol>
+    <!--End of breadcrumb-->
+    <img class="single_photo" src="./images/img_1.jpg" alt="Graffiti on wall">
   </div>
 
   <script src="js/jquery.min.js"></script>
